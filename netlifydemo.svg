@@ -1,0 +1,485 @@
+<svg
+            width="553"
+            height="347"
+            viewBox="0 0 653 447"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g
+              filter="url(#home-scrim-forms-filter0_d)"
+              data-animate-on-scroll-element=""
+              class="scrim-layers-website"
+            >
+              <path
+                d="M90 79.5322C90 77.0291 92.0747 75 94.6339 75H509.366C511.925 75 514 77.0291 514 79.5322V334.468C514 336.971 511.925 339 509.366 339H94.6339C92.0747 339 90 336.971 90 334.468V79.5322Z"
+                fill="#2250F4"
+              ></path>
+              <path
+                d="M350 75H509.086C511.8 75 514 77.0291 514 79.5322V334.468C514 336.971 511.8 339 509.086 339H350V75Z"
+                fill="url(#paint0_radial)"
+              ></path>
+              <text
+                fill="white"
+                xml:space="preserve"
+                font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace"
+                font-size="9"
+                font-weight="500"
+                letter-spacing="0px"
+                style="white-space: pre;"
+              >
+                <tspan x="379" y="166.069">
+                  &lt;form name="
+                  <tspan fill="#43B4D8">profile</tspan>
+                  "
+                </tspan>
+                <tspan x="379" y="182.113">
+                  data-netlify="
+                  <tspan fill="#43B4D8">true</tspan>
+                  "&gt;
+                </tspan>
+              </text>
+              <text
+                opacity="0.4"
+                fill="white"
+                xml:space="preserve"
+                font-family="SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace"
+                font-size="9"
+                font-weight="500"
+                letter-spacing="0px"
+                style="white-space: pre;"
+              >
+                <tspan x="379" y="149.069">
+                  &lt;h1&gt;Create profile&lt;/h1&gt;
+                </tspan>
+              </text>
+              <path
+                d="M114 289C114 283.477 117.984 279 122.898 279H145.102C150.016 279 154 283.477 154 289C154 294.523 150.016 299 145.102 299H122.898C117.984 299 114 294.523 114 289Z"
+                fill="#0E32D3"
+              ></path>
+              <path
+                d="M121.986 287.775H145.986V289.775H121.986V287.775Z"
+                fill="#2250F4"
+              ></path>
+              <path
+                d="M162 289C162 283.477 165.984 279 170.898 279H193.102C198.016 279 202 283.477 202 289C202 294.523 198.016 299 193.102 299H170.898C165.984 299 162 294.523 162 289Z"
+                fill="#0E32D3"
+              ></path>
+              <path
+                d="M169.986 287.775H193.986V289.775H169.986V287.775Z"
+                fill="#2250F4"
+              ></path>
+              <path
+                d="M210 289C210 283.477 213.984 279 218.898 279H241.102C246.016 279 250 283.477 250 289C250 294.523 246.016 299 241.102 299H218.898C213.984 299 210 294.523 210 289Z"
+                fill="#0E32D3"
+              ></path>
+              <path
+                d="M217.986 287.775H241.986V289.775H217.986V287.775Z"
+                fill="white"
+              ></path>
+              <path
+                d="M258 289C258 283.477 261.984 279 266.898 279H289.102C294.016 279 298 283.477 298 289C298 294.523 294.016 299 289.102 299H266.898C261.984 299 258 294.523 258 289Z"
+                fill="#0E32D3"
+              ></path>
+              <path
+                d="M265.986 287.775H289.986V289.775H265.986V287.775Z"
+                fill="#2250F4"
+              ></path>
+              <g clip-path="url(#home-scrim-forms-clip0)">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M113.975 104.575C114.115 104.254 114.427 104.047 114.771 104.047H131.229C131.573 104.047 131.885 104.254 132.025 104.575C132.164 104.896 132.106 105.271 131.875 105.532L123.646 114.822C123.481 115.008 123.246 115.115 123 115.115C122.754 115.115 122.519 115.008 122.354 114.822L114.125 105.532C113.894 105.271 113.836 104.896 113.975 104.575ZM116.733 105.824L123 112.9L129.267 105.824H116.733Z"
+                  fill="#53CB83"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M118.21 99.2138C118.375 99.0063 118.624 98.8859 118.886 98.8859H127.114C127.376 98.8859 127.625 99.0063 127.79 99.2138L131.904 104.375C132.116 104.641 132.159 105.008 132.015 105.318C131.871 105.628 131.565 105.825 131.229 105.825H114.771C114.435 105.825 114.129 105.628 113.985 105.318C113.841 105.008 113.884 104.641 114.096 104.375L118.21 99.2138ZM119.3 100.664L116.603 104.047H129.397L126.7 100.664H119.3Z"
+                  fill="#53CB83"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M118.336 99.0853C118.71 98.7754 119.258 98.833 119.562 99.2138L123.676 104.375C123.98 104.756 123.923 105.316 123.55 105.626C123.177 105.935 122.628 105.878 122.325 105.497L118.21 100.336C117.907 99.9549 117.963 99.3951 118.336 99.0853Z"
+                  fill="#53CB83"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M127.664 99.0853C128.037 99.3951 128.094 99.9549 127.79 100.336L123.676 105.497C123.372 105.878 122.824 105.935 122.451 105.626C122.077 105.316 122.021 104.756 122.325 104.375L126.439 99.2138C126.742 98.833 127.291 98.7754 127.664 99.0853Z"
+                  fill="#53CB83"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M123 104.047C123.481 104.047 123.871 104.445 123.871 104.936V114.226C123.871 114.717 123.481 115.115 123 115.115C122.519 115.115 122.129 114.717 122.129 114.226V104.936C122.129 104.445 122.519 104.047 123 104.047Z"
+                  fill="#53CB83"
+                ></path>
+              </g>
+              <g opacity="0.4" filter="url(#home-scrim-forms-filter1_d)">
+                <rect
+                  x="114.5"
+                  y="159.5"
+                  width="163"
+                  height="23"
+                  rx="1.5"
+                  stroke="white"
+                ></rect>
+              </g>
+              <g opacity="0.4" filter="url(#home-scrim-forms-filter2_d)">
+                <rect
+                  x="114.5"
+                  y="191.5"
+                  width="163"
+                  height="23"
+                  rx="1.5"
+                  stroke="white"
+                ></rect>
+              </g>
+              <text
+                fill="#F7F8F8"
+                xml:space="preserve"
+                font-family="Roboto"
+                font-size="14"
+                font-weight="bold"
+                letter-spacing="0px"
+                style="white-space: pre;"
+              >
+                <tspan x="114" y="145.17">Create profile</tspan>
+              </text>
+            </g>
+            <g
+              filter="url(#home-scrim-forms-filter3_d)"
+              data-animate-on-scroll-element=""
+              class="scrim-layers-notification"
+              style="--animation-on-scroll-delay: 850ms;"
+            >
+              <rect
+                x="314"
+                y="239"
+                width="264"
+                height="168"
+                rx="8"
+                fill="white"
+              ></rect>
+              <rect
+                x="314"
+                y="295"
+                width="264"
+                height="56"
+                fill="#F7F8F8"
+              ></rect>
+              <text
+                fill="#2D3B41"
+                xml:space="preserve"
+                font-family="Roboto"
+                font-size="12"
+                letter-spacing="0px"
+                style="white-space: pre;"
+              >
+                <tspan x="346" y="280.574">
+                  Send new submissions to a Slack channel
+                </tspan>
+              </text>
+              <text
+                fill="#2D3B41"
+                xml:space="preserve"
+                font-family="Roboto"
+                font-size="12"
+                font-weight="bold"
+                letter-spacing="0px"
+                style="white-space: pre;"
+              >
+                <tspan x="346" y="260.574">Slack integration</tspan>
+              </text>
+              <path
+                d="M325.981 257.829C325.981 258.631 325.326 259.285 324.524 259.285C323.723 259.285 323.068 258.631 323.068 257.829C323.068 257.027 323.723 256.373 324.524 256.373H325.981V257.829Z"
+                fill="#E01E5A"
+              ></path>
+              <path
+                d="M326.715 257.829C326.715 257.027 327.369 256.373 328.171 256.373C328.973 256.373 329.627 257.027 329.627 257.829V261.476C329.627 262.277 328.973 262.932 328.171 262.932C327.369 262.932 326.715 262.277 326.715 261.476V257.829Z"
+                fill="#E01E5A"
+              ></path>
+              <path
+                d="M328.171 251.981C327.369 251.981 326.715 251.326 326.715 250.524C326.715 249.723 327.369 249.068 328.171 249.068C328.973 249.068 329.627 249.723 329.627 250.524V251.981H328.171Z"
+                fill="#36C5F0"
+              ></path>
+              <path
+                d="M328.171 252.715C328.973 252.715 329.627 253.369 329.627 254.171C329.627 254.973 328.973 255.627 328.171 255.627H324.524C323.723 255.627 323.068 254.973 323.068 254.171C323.068 253.369 323.723 252.715 324.524 252.715H328.171Z"
+                fill="#36C5F0"
+              ></path>
+              <path
+                d="M334.019 254.171C334.019 253.369 334.674 252.715 335.476 252.715C336.277 252.715 336.932 253.369 336.932 254.171C336.932 254.973 336.277 255.627 335.476 255.627H334.019V254.171Z"
+                fill="#2EB67D"
+              ></path>
+              <path
+                d="M333.285 254.171C333.285 254.973 332.631 255.627 331.829 255.627C331.027 255.627 330.373 254.973 330.373 254.171V250.524C330.373 249.723 331.027 249.068 331.829 249.068C332.631 249.068 333.285 249.723 333.285 250.524V254.171Z"
+                fill="#2EB67D"
+              ></path>
+              <path
+                d="M331.829 260.019C332.631 260.019 333.285 260.674 333.285 261.476C333.285 262.277 332.631 262.932 331.829 262.932C331.027 262.932 330.373 262.277 330.373 261.476V260.019H331.829Z"
+                fill="#ECB22E"
+              ></path>
+              <path
+                d="M331.829 259.285C331.027 259.285 330.373 258.631 330.373 257.829C330.373 257.027 331.027 256.373 331.829 256.373H335.476C336.277 256.373 336.932 257.027 336.932 257.829C336.932 258.631 336.277 259.285 335.476 259.285H331.829Z"
+                fill="#ECB22E"
+              ></path>
+              <text
+                fill="#2D3B41"
+                xml:space="preserve"
+                font-family="Roboto"
+                font-size="12"
+                letter-spacing="0px"
+                style="white-space: pre;"
+              >
+                <tspan x="346" y="336.574">
+                  Send new submissions as POST request
+                </tspan>
+              </text>
+              <text
+                fill="#2D3B41"
+                xml:space="preserve"
+                font-family="Roboto"
+                font-size="12"
+                font-weight="bold"
+                letter-spacing="0px"
+                style="white-space: pre;"
+              >
+                <tspan x="346" y="316.574">Outgoing webhook</tspan>
+              </text>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M329.6 307.625C329.6 306.175 330.809 305 332.3 305C333.791 305 335 306.175 335 307.625C335 308.768 334.248 309.737 333.2 310.098V315.5C333.2 317.433 331.588 319 329.6 319C327.612 319 326 317.433 326 315.5V312L329.6 315.5H327.8C327.8 316.466 328.606 317.25 329.6 317.25C330.594 317.25 331.4 316.466 331.4 315.5V310.097C330.352 309.737 329.6 308.767 329.6 307.625ZM332.3 306.75C331.803 306.75 331.4 307.142 331.4 307.625C331.4 308.108 331.803 308.5 332.3 308.5C332.797 308.5 333.2 308.108 333.2 307.625C333.2 307.142 332.797 306.75 332.3 306.75Z"
+                fill="#2D3B41"
+              ></path>
+              <text
+                fill="#2D3B41"
+                xml:space="preserve"
+                font-family="Roboto"
+                font-size="12"
+                letter-spacing="0px"
+                style="white-space: pre;"
+              >
+                <tspan x="346" y="392.574">
+                  Send new submissions via email
+                </tspan>
+              </text>
+              <text
+                fill="#2D3B41"
+                xml:space="preserve"
+                font-family="Roboto"
+                font-size="12"
+                font-weight="bold"
+                letter-spacing="0px"
+                style="white-space: pre;"
+              >
+                <tspan x="346" y="372.574">Email notification</tspan>
+              </text>
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M322 364.222C322 363.545 322.522 363 323.171 363H336.829C337.478 363 338 363.545 338 364.222V372.778C338 373.455 337.478 374 336.829 374H323.171C322.522 374 322 373.455 322 372.778V364.222ZM324.636 365.117C324.561 365.039 324.458 364.99 324.337 365.002C324.196 365.019 324.068 365.136 324.026 365.287C323.984 365.439 324.029 365.616 324.136 365.72L326.884 368.548L324.142 371.268C323.978 371.403 323.951 371.701 324.087 371.871C324.223 372.041 324.492 372.043 324.631 371.877L327.425 369.106L328.982 370.716C329.553 371.305 330.435 371.304 331.006 370.716L332.575 369.106L335.369 371.877C335.508 372.043 335.777 372.041 335.913 371.871C336.049 371.701 336.022 371.403 335.858 371.268L333.116 368.548L335.864 365.72C336.005 365.574 336.015 365.298 335.884 365.14C335.753 364.982 335.505 364.971 335.364 365.117L330.506 370.113C330.203 370.425 329.784 370.425 329.483 370.113L324.636 365.117Z"
+                fill="#2D3B41"
+              ></path>
+            </g>
+            <g
+              data-animate-on-scroll-element=""
+              class="scrim-layers-notification"
+              style="--animation-on-scroll-delay: 850ms;"
+            >
+              <rect
+                x="454"
+                y="203"
+                width="124"
+                height="32"
+                rx="6"
+                fill="#E9EBEB"
+              ></rect>
+              <text
+                fill="#2D3B41"
+                xml:space="preserve"
+                font-family="Roboto"
+                font-size="12"
+                font-weight="bold"
+                letter-spacing="0px"
+                style="white-space: pre;"
+              >
+                <tspan x="462.32" y="222.574">Add notification</tspan>
+              </text>
+              <path
+                d="M561.07 216L563.575 218.581C563.81 218.824 564.19 218.824 564.425 218.581L566.93 216L568.5 217.619L564.425 221.818C564.19 222.061 563.81 222.061 563.575 221.818L559.5 217.619L561.07 216Z"
+                fill="#2D3B41"
+              ></path>
+            </g>
+            <g style="display: none;">
+              <rect
+                x="301.5"
+                y="52"
+                width="2"
+                height="34"
+                fill="#FF1154"
+              ></rect>
+              <circle cx="302.5" cy="86" r="2" fill="#FF1154"></circle>
+            </g>
+            <defs>
+              <filter
+                id="home-scrim-forms-filter0_d"
+                x="0"
+                y="5"
+                width="584"
+                height="424"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood
+                  flood-opacity="0"
+                  result="BackgroundImageFix"
+                ></feFlood>
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                ></feColorMatrix>
+                <feOffset dx="-10" dy="10"></feOffset>
+                <feGaussianBlur stdDeviation="40"></feGaussianBlur>
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
+                ></feColorMatrix>
+                <feBlend
+                  mode="normal"
+                  in2="BackgroundImageFix"
+                  result="effect1_dropShadow"
+                ></feBlend>
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="effect1_dropShadow"
+                  result="shape"
+                ></feBlend>
+              </filter>
+              <filter
+                id="home-scrim-forms-filter1_d"
+                x="111.503"
+                y="159"
+                width="168.994"
+                height="28.9942"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood
+                  flood-opacity="0"
+                  result="BackgroundImageFix"
+                ></feFlood>
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                ></feColorMatrix>
+                <feOffset dy="2.4971"></feOffset>
+                <feGaussianBlur stdDeviation="1.24855"></feGaussianBlur>
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                ></feColorMatrix>
+                <feBlend
+                  mode="normal"
+                  in2="BackgroundImageFix"
+                  result="effect1_dropShadow"
+                ></feBlend>
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="effect1_dropShadow"
+                  result="shape"
+                ></feBlend>
+              </filter>
+              <filter
+                id="home-scrim-forms-filter2_d"
+                x="111.503"
+                y="191"
+                width="168.994"
+                height="28.9942"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood
+                  flood-opacity="0"
+                  result="BackgroundImageFix"
+                ></feFlood>
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                ></feColorMatrix>
+                <feOffset dy="2.4971"></feOffset>
+                <feGaussianBlur stdDeviation="1.24855"></feGaussianBlur>
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+                ></feColorMatrix>
+                <feBlend
+                  mode="normal"
+                  in2="BackgroundImageFix"
+                  result="effect1_dropShadow"
+                ></feBlend>
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="effect1_dropShadow"
+                  result="shape"
+                ></feBlend>
+              </filter>
+              <filter
+                id="home-scrim-forms-filter3_d"
+                x="290"
+                y="231"
+                width="312"
+                height="216"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood
+                  flood-opacity="0"
+                  result="BackgroundImageFix"
+                ></feFlood>
+                <feColorMatrix
+                  in="SourceAlpha"
+                  type="matrix"
+                  values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                ></feColorMatrix>
+                <feOffset dy="16"></feOffset>
+                <feGaussianBlur stdDeviation="12"></feGaussianBlur>
+                <feColorMatrix
+                  type="matrix"
+                  values="0 0 0 0 0.054902 0 0 0 0 0.117647 0 0 0 0 0.145098 0 0 0 0.08 0"
+                ></feColorMatrix>
+                <feBlend
+                  mode="normal"
+                  in2="BackgroundImageFix"
+                  result="effect1_dropShadow"
+                ></feBlend>
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="effect1_dropShadow"
+                  result="shape"
+                ></feBlend>
+              </filter>
+              <radialGradient
+                id="paint0_radial"
+                cx="0"
+                cy="0"
+                r="1"
+                gradientUnits="userSpaceOnUse"
+                gradientTransform="translate(336.857 193.12) scale(61.7143 172.326)"
+              >
+                <stop stop-color="#061A60"></stop>
+                <stop offset="1" stop-color="#072180"></stop>
+              </radialGradient>
+              <clipPath id="home-scrim-forms-clip0">
+                <rect x="114" y="99" width="18" height="16" fill="white"></rect>
+              </clipPath>
+            </defs>
+          </svg>
