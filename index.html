@@ -20,6 +20,7 @@
   />
 </head>
 
+<!-- TODO fix buttons wrapping, fix input -->
 <body>
   <div class="container-fluid">
     <div class="container my-4">
@@ -137,13 +138,13 @@
           build the fastest sites.
         </span>
       </h1>
-      <p class="lead col-sm-11">
+      <p class="lead col-sm-11 px-0">
         <strong class="font-weight-bold">More speed. Less spend.</strong>
         900,000+ developers & businesses use Netlify to run web projects at
         global scale—without servers, devops, or costly infrastructure.
       </p>
       <div
-        class="d-flex flex-wrap justify-content-center align-items-center my-5"
+        class="d-flex flex-wrap justify-content-center justify-content-md-start align-items-center my-5"
       >
         <a class="btn btn-primary" href="#" role="button"
           >Get started in seconds</a
@@ -618,9 +619,10 @@
         </div>
       </div>
     </div>
-    <hr />
 
-    <div class="container text-center mt-3 pt-5">
+    <div
+      class="container d-flex flex-column align-items-center justify-content-center mt-5 mb-"
+    >
       <img
         src="https://seeklogo.com/images/N/netlify-logo-758722CDF4-seeklogo.com.png"
         alt="netlify gem logo"
@@ -631,10 +633,8 @@
         Stay up to date with all Jamstack & Netlify news
       </p>
 
-      <div
-        class="form-group d-flex align-items-center justify-content-center row mx-0"
-      >
-        <div class="col-4 px-0">
+      <div class="row">
+        <div class="col-8 pr-0">
           <input
             type="text"
             class="form-control"
@@ -647,11 +647,11 @@
         </div>
       </div>
     </div>
-
+    <hr />
     <!-- FOOTER SECTION -->
     <div class="container w-75 mb-3">
       <div class="row mt-5">
-        <div class="col-sm">
+        <div class="col-sm-3 col-md">
           <p class="font-weight-bold">
             Why Netlify
           </p>
@@ -661,7 +661,7 @@
             <li>Whitepaper</li>
           </ul>
         </div>
-        <div class="col-sm">
+        <div class="col-4 col-sm-3 col-md">
           <p class="font-weight-bold">
             Products
           </p>
@@ -674,7 +674,7 @@
             <li>Add-ons</li>
           </ul>
         </div>
-        <div class="col-sm">
+        <div class="col-4 col-sm-3 col-md">
           <p class="font-weight-bold">
             Resources
           </p>
@@ -685,7 +685,7 @@
             <li>Security</li>
           </ul>
         </div>
-        <div class="col-sm">
+        <div class="col-4 col-sm-3 col-md">
           <p class="font-weight-bold">
             Contact us
           </p>
@@ -696,7 +696,7 @@
             <li>Community</li>
           </ul>
         </div>
-        <div class="col-sm">
+        <div class="col-4 col-sm-3 col-md">
           <p class="font-weight-bold">
             Company
           </p>
@@ -711,6 +711,117 @@
     </div>
 
     <hr />
+    <div
+      class="container d-flex flex-column align-items-center justify-content-center mt-5 mb-4"
+    >
+      <p class="font-weight-bold small">© 2020 Netlify</p>
+      <div>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/de/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png"
+          alt="twitter logo"
+          width="20px"
+          class="mr-2"
+        />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+          alt="github logo"
+          width="20px"
+          class="mr-2"
+        />
+        <img
+          src="https://seeklogo.com/images/N/netlify-logo-758722CDF4-seeklogo.com.png"
+          alt="netlify community logo"
+          width="20px"
+          class="mr-2"
+        />
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1280px-YouTube_full-color_icon_%282017%29.svg.png"
+          alt="youtube logo"
+          width="20px"
+        />
+      </div>
+    </div>
+
+    <!-- FOOTER NAV
+    <nav class="navbar navbar-expand-lg navbar-light bg-light container">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdownMenuLink"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Jamstack
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdownMenuLink"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Deployment
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdownMenuLink"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Serverless
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdownMenuLink"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Development
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdownMenuLink"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Markup and Static Site Generators
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a
+            class="nav-link dropdown-toggle"
+            href="#"
+            id="navbarDropdownMenuLink"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Performance
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+          </div>
+        </li>
+      </ul>
+    </nav> -->
   </div>
 
   <!-- Optional JavaScript -->
