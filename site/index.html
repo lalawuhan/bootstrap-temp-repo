@@ -27,7 +27,7 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item dropdown">
+          <li class="nav-item nav__link dropdown">
             <a
               class="nav-link dropdown-toggle"
               href="#"
@@ -40,10 +40,10 @@
               Platform
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item nav__link">
             <a class="nav-link" href="#">Pricing</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item nav__link">
             <a
               class="nav-link dropdown-toggle"
               href="#"
@@ -56,7 +56,7 @@
               Enterprise
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item nav__link">
             <a
               class="nav-link dropdown-toggle"
               href="#"
@@ -69,16 +69,16 @@
               Jamstack
             </a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item nav__link">
             <a class="nav-link" href="#">Docs</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item nav__link">
             <a class="nav-link" href="#">Blog</a>
           </li>
         </ul>
         <div class="justify-content-end">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item">
+            <li class="nav-item nav__link">
               <a class="nav-link" href="#">
                 <img
                   src="https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-512.png"
@@ -87,13 +87,13 @@
                 />
               </a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item nav__link">
               <a class="nav-link" href="#">Contact sales</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item nav__link">
               <a class="nav-link" href="#">Login</a>
             </li>
-            <li class="nav-item border-left">
+            <li class="nav-item nav__link border-left">
               <a class="nav-link" href="#"
                 >Sign up
                 <img
@@ -111,7 +111,7 @@
   </div>
 
   <div class="jumbotron container">
-    <h1 class="mb-4">
+    <h1 class="mb-4 heading heading-large">
       <span class="d-block">
         The fastest way to
       </span>
@@ -119,7 +119,7 @@
         build the fastest sites.
       </span>
     </h1>
-    <p class="lead col-sm-7 px-0">
+    <p class="col-sm-7 px-0 paragraph paragraph-large">
       <strong class="font-weight-bold">More speed. Less spend.</strong>
       900,000+ developers & businesses use Netlify to run web projects at global
       scale—without servers, devops, or costly infrastructure.
@@ -127,10 +127,13 @@
     <div
       class="d-flex flex-wrap justify-content-center justify-content-md-start align-items-center my-5"
     >
-      <a class="btn btn-primary" href="#" role="button"
+      <a
+        class="btn btn-primary call-to-action btn--call-to-action"
+        href="#"
+        role="button"
         >Get started in seconds</a
       >
-      <a class="ml-2" href="#" role="button"
+      <a class="ml-3 call-to-action" href="#" role="button"
         >Questions? Talk to an expert
         <img
           src="https://cdn.onlinewebfonts.com/svg/img_423359.png"
@@ -141,7 +144,7 @@
     </div>
   </div>
 
-  <section class="rounded container card">
+  <section class="rounded container card-container">
     <div
       class="mt-3 mb-4 d-flex flex-wrap flex-md-nowrap justify-content-center"
     >
@@ -172,23 +175,23 @@
       >
     </div>
     <div class="mt-4 mb-5 mx-2 flex-wrap flex-xl-nowrap row">
-      <div class="mb-5 mb-md-0 col-sm-6 col-md-6 col-lg-3 col-xl-3">
+      <div class="mb-5 mb-md-0 col-sm-7 col-md-4 col-lg-2 col-xl-2">
         <img
           src="https://www.netlify.com/v3/img/build/ef7c5bc4-350.webp"
           alt="loblox"
           class="rounded img-fluid"
         />
       </div>
-      <div class="col col-sm-6 col-md-6 col-lg-4 col-xl-4 mb-4">
-        <h4 class="font-weight-bold">
+      <div class="col col-sm-5 col-md-8 col-lg-5 col-xl-6 mb-4">
+        <h4 class="font-weight-bold subheading case-study">
           Canada's largest grocer delivers sites 10x faster, while saving money
         </h4>
-        <p class="mt-3">
+        <p class="mt-3 paragraph">
           Netlify helps the Loblaw engineering productivity team achieve its
           mission of reducing toil, increasing happiness and getting sites
           launched fast.
         </p>
-        <a href="" class="mt-3"
+        <a href="" class="call-to-action"
           >Read the case study
           <img
             src="https://cdn.onlinewebfonts.com/svg/img_423359.png"
@@ -198,23 +201,27 @@
         /></a>
       </div>
       <div
-        class="col-sm-12 col-md-12 col-lg-5 text-center d-inline-flex justify-content-around"
+        class="col-sm-12 col-md-12 col-lg-5 col-xl-4 text-center d-inline-flex justify-content-around"
       >
         <div class=" ">
-          <h1 class="font-weight-bolder mt-2 mt-sm-0">92%</h1>
-          <span class="small font-weight-bold">BETTER PERFORMANCE </span>
+          <h1 class="font-weight-bolder mt-2 mt-sm-0 stats-number">92%</h1>
+          <span class="font-weight-bold stats-description"
+            >BETTER PERFORMANCE
+          </span>
         </div>
         <div class=""">
-        <h1 class="font-weight-bolder mt-2 mt-sm-0">$38k</h1>
-        <span class="small font-weight-bold">MONTHLY COST SAVINGS </span>
+        <h1 class="font-weight-bolder mt-2 mt-sm-0 stats-number">$38k</h1>
+        <span class="font-weight-bold stats-description"
+          >MONTHLY COST SAVINGS
+        </span>
       </div>
     </div>
   </section>
 
   <div class="container mt-4 mb-4 pt-5">
     <div class="d-flex flex-column align-items-center text-center">
-      <p class="font-weight-bold">SERVER LESS, DO MORE</p>
-      <h1 class="font-weight-bolder mb-5">
+      <p class="font-weight-bold preheading">server less, do more</p>
+      <h1 class="font-weight-bolder mb-5 heading">
         <span class="d-block">Just git push to</span>
         <span class="d-block">
           deploy worldwide.
@@ -224,8 +231,8 @@
 
     <div class="d-flex flex-wrap text-left">
       <div class="col-lg">
-        <h5 class="font-weight-bold">1. Connect your repository</h5>
-        <p class="mb-3">
+        <h5 class="font-weight-bold subheading">1. Connect your repository</h5>
+        <p class="mb-3 paragraph">
           Netlify detects the changes to push to git and triggers automated
           deploys.
         </p>
@@ -258,8 +265,8 @@
         </div>
       </div>
       <div class="col-lg">
-        <h5 class="font-weight-bold">2. Add your build settings</h5>
-        <p class="mb-3">
+        <h5 class="font-weight-bold subheading">2. Add your build settings</h5>
+        <p class="mb-3 paragraph">
           Netlify provides you a powerful and totally customizable build
           environment.
         </p>
@@ -268,8 +275,8 @@
         </div>
       </div>
       <div class="col-lg">
-        <h5 class="font-weight-bold">3. Deploy your website</h5>
-        <p class="mb-3">
+        <h5 class="font-weight-bold subheading">3. Deploy your website</h5>
+        <p class="mb-3 paragraph">
           Publishing is seamless with instant cache invalidation and atomic
           deploys.
         </p>
@@ -280,8 +287,10 @@
     </div>
   </div>
   <div class="my-4 d-flex flex-wrap justify-content-center align-items-center">
-    <a class="btn btn-primary" href="#" role="button">Get started in seconds</a>
-    <a class="ml-3" href="#"
+    <a class="btn btn-primary btn--call-to-action" href="#" role="button"
+      >Get started in seconds</a
+    >
+    <a class="ml-3 call-to-action" href="#"
       >Questions? Talk to an expert
       <img
         src="https://cdn.onlinewebfonts.com/svg/img_423359.png"
@@ -299,12 +308,12 @@
       <div class="col-lg">
         <div class="row">
           <div class="col-md-12 mt-5">
-            <h4 class="font-weight-bolder">
+            <h4 class="font-weight-bolder subheading feat-list">
               Add dynamic functionality with built‑in applications
             </h4>
           </div>
           <div class="col-md-12 mt-2">
-            <p class="pr-3">
+            <p class="pr-3 paragraph">
               With very little coding or setup, Netlify makes it easy to add
               features like:
             </p>
@@ -367,13 +376,17 @@
   </div>
 
   <div class="container text-center mt-3 pt-5">
-    <p class="font-weight-bold">DON’T JUST TAKE OUR WORD FOR IT</p>
-    <h1 class="font-weight-bolder mb-5">Ready to try Netlify?</h1>
+    <p class="font-weight-bold preheading">don't just take our word for it</p>
+    <h1 class="font-weight-bolder mb-5 heading prefooter">
+      Ready to try Netlify?
+    </h1>
     <div
       class="d-flex flex-wrap justify-content-center align-items-center mb-5"
     >
-      <a class="btn btn-primary" href="#" role="button">Get started for free</a>
-      <a class="ml-2" href="#"
+      <a class="btn btn--call-to-action btn-secondary" href="#" role="button"
+        >Get started for free</a
+      >
+      <a class="ml-3 call-to-action" href="#"
         >Questions? Talk to an expert
         <img
           src="https://cdn.onlinewebfonts.com/svg/img_423359.png"
@@ -386,14 +399,12 @@
 
   <!-- TESTIMONIALS BLOCK -->
   <div class="container-fluid mb-3 overflow-auto">
-    <div class="row d-flex flex-nowrap mt-3">
-      <div
-        class="col-9 col-md-6 col-sm-9 col-lg-5 col-xl-2 border rounded mb-5 p-3 ml-3"
-      >
+    <div class="row d-flex flex-nowrap mt-1 pl-3">
+      <div class="twitter-card">
         <p class="mb-4">
-          <a href="#">Vuejs.org</a> is now powered by
-          <a href="#">@Netlify</a> with a free open source team plan. Really
-          really impressive and smooth deployment experience.
+          <a href="#" class="twitter-link">Vuejs.org</a> is now powered by
+          <a href="#" class="twitter-link">@Netlify</a> with a free open source
+          team plan. Really really impressive and smooth deployment experience.
         </p>
         <div class="d-flex align-items-center">
           <img
@@ -416,13 +427,11 @@
           </div>
         </div>
       </div>
-      <div
-        class="col-9 col-md-6 col-sm-9 col-lg-5 col-xl-2 border rounded mb-5 p-3 ml-3"
-      >
+      <div class="twitter-card">
         <p class="mb-4">
           Haven't been as impressed by a software product as I am with
-          <a href="#">@Netlify</a> in a long time. Huge time saver, works as
-          promised. Neat stuff, folks.
+          <a href="#" class="twitter-link">@Netlify</a> in a long time. Huge
+          time saver, works as promised. Neat stuff, folks.
         </p>
         <div class="d-flex align-items-center">
           <img
@@ -445,12 +454,11 @@
           </div>
         </div>
       </div>
-      <div
-        class="col-9 col-md-6 col-sm-9 col-lg-5 col-xl-2 border rounded mb-5 p-3 ml-3"
-      >
+      <div class="twitter-card">
         <p class="mb-4">
-          I think <a href="#">@netlify</a> might just be the very best SaaS app
-          I have ever had the privilege to use. It is just *amazing*.
+          I think <a href="#" class="twitter-link">@netlify</a> might just be
+          the very best SaaS app I have ever had the privilege to use. It is
+          just *amazing*.
         </p>
         <div class="d-flex align-items-center">
           <img
@@ -474,12 +482,11 @@
         </div>
       </div>
 
-      <div
-        class="col-9 col-md-6 col-sm-9 col-lg-5 col-xl-2 border rounded mb-5 p-3 ml-3"
-      >
+      <div class="twitter-card">
         <p class="mb-4">
-          Just migrated a few SPAs to <a href="#">@Netlify</a>. Literally
-          impossible to make the process any easier. Super impressive 👍🏻
+          Just migrated a few SPAs to
+          <a href="#" class="twitter-link">@Netlify</a>. Literally impossible to
+          make the process any easier. Super impressive 👍🏻
         </p>
         <div class="d-flex align-items-center">
           <img
@@ -503,12 +510,11 @@
         </div>
       </div>
 
-      <div
-        class="col-9 col-md-6 col-sm-9 col-lg-5 col-xl-2 border rounded mb-5 p-3 ml-3"
-      >
+      <div class="twitter-card">
         <p class="mb-4">
-          Gotta say, <a href="#">@Netlify</a> has gotten really good. Great for
-          hosting PWAs/static sites. So many powerful free features!
+          Gotta say, <a href="#" class="twitter-link">@Netlify</a> has gotten
+          really good. Great for hosting PWAs/static sites. So many powerful
+          free features!
         </p>
         <div class="d-flex align-items-center">
           <img
@@ -532,13 +538,11 @@
         </div>
       </div>
 
-      <div
-        class="col-9 col-md-6 col-sm-9 col-lg-5 col-xl-2 border rounded mb-5 p-3 ml-3"
-      >
+      <div class="twitter-card">
         <p class="mb-4">
           just migrated my @GoHugoIO blog from github pages to
-          <a href="#">@Netlify</a>. Totally hassle free. @letsencrypt
-          certificate in 1 click. One word: ❤️
+          <a href="#" class="twitter-link">@Netlify</a>. Totally hassle free.
+          @letsencrypt certificate in 1 click. One word: ❤️
         </p>
         <div class="d-flex align-items-center">
           <img
@@ -562,13 +566,11 @@
         </div>
       </div>
 
-      <div
-        class="col-9 col-md-6 col-sm-9 col-lg-5 col-xl-2 border rounded mb-5 p-3 ml-3"
-      >
+      <div class="twitter-card">
         <p class="mb-4">
-          I just took <a href="#">@Netlify</a> out for the first time and it's
-          nuts: CI/CD, forms, split testing are supported out of the box. Lambda
-          functions are in beta.
+          I just took <a href="#" class="twitter-link">@Netlify</a> out for the
+          first time and it's nuts: CI/CD, forms, split testing are supported
+          out of the box. Lambda functions are in beta.
         </p>
         <div class="d-flex align-items-center">
           <img
@@ -594,52 +596,50 @@
     </div>
   </div>
 
-  <div
-    class="container d-flex flex-column align-items-center justify-content-center mt-5 mb-"
-  >
+  <div class="container my-5 group-center">
     <img
       src="https://seeklogo.com/images/N/netlify-logo-758722CDF4-seeklogo.com.png"
       alt="netlify gem logo"
       width="40px"
-      class="mb-4"
+      class="mb-3"
     />
-    <p class="font-weight-bold">
+    <p class="newsletter-text">
       Stay up to date with all Jamstack & Netlify news
     </p>
 
-    <div class="row">
-      <div class="col-8 pr-0">
+    <div class="newsletter-form">
+      <div>
         <input
           type="text"
-          class="form-control"
+          class="form-input"
           placeholder="Email address"
           aria-label="Email address"
         />
       </div>
-      <div class="col-2">
-        <a class="btn btn-primary" href="#" role="button">Subscribe</a>
+      <div class="ml-2">
+        <a class="btn btn-secondary" href="#" role="button">Subscribe</a>
       </div>
     </div>
   </div>
   <hr />
   <!-- FOOTER SECTION -->
-  <div class="container w-75 mb-3">
-    <div class="row mt-5">
+  <div class="container footer-block">
+    <div class="row footer-layout">
       <div class="col-sm-3 col-md">
-        <p class="font-weight-bold">
+        <p class="footer-title">
           Why Netlify
         </p>
-        <ul class="list-unstyled">
+        <ul class="list-unstyled footer-links">
           <li>Customers</li>
           <li>Enterprise</li>
           <li>Whitepaper</li>
         </ul>
       </div>
       <div class="col-4 col-sm-3 col-md">
-        <p class="font-weight-bold">
+        <p class="footer-title">
           Products
         </p>
-        <ul class="list-unstyled">
+        <ul class="list-unstyled footer-links">
           <li>Platform</li>
           <li>Netlify Build</li>
           <li>Netlify Edge</li>
@@ -649,10 +649,10 @@
         </ul>
       </div>
       <div class="col-4 col-sm-3 col-md">
-        <p class="font-weight-bold">
+        <p class="footer-title">
           Resources
         </p>
-        <ul class="list-unstyled">
+        <ul class="list-unstyled footer-links">
           <li>Docs</li>
           <li>Open Source</li>
           <li>Jamstack book</li>
@@ -660,10 +660,10 @@
         </ul>
       </div>
       <div class="col-4 col-sm-3 col-md">
-        <p class="font-weight-bold">
+        <p class="footer-title">
           Contact us
         </p>
-        <ul class="list-unstyled">
+        <ul class="list-unstyled footer-links">
           <li>Sales</li>
           <li>Support</li>
           <li>Status</li>
@@ -671,10 +671,10 @@
         </ul>
       </div>
       <div class="col-4 col-sm-3 col-md">
-        <p class="font-weight-bold">
+        <p class="footer-title">
           Company
         </p>
-        <ul class="list-unstyled">
+        <ul class="list-unstyled footer-links">
           <li>Blog</li>
           <li>About</li>
           <li>Careers</li>
@@ -685,10 +685,8 @@
   </div>
 
   <hr />
-  <div
-    class="container d-flex flex-column align-items-center justify-content-center mt-5 mb-4"
-  >
-    <p class="font-weight-bold small">© 2020 Netlify</p>
+  <div class="container group-center mb-4">
+    <p class="footer-copyright">© 2020 Netlify</p>
     <div>
       <img
         src="https://upload.wikimedia.org/wikipedia/de/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png"
