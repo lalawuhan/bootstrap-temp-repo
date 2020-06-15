@@ -1,0 +1,33 @@
+/* import the necessary Bootstrap files */
+@import "../scss/bootstrap.scss";
+@font-face {
+  font-family: MADE;
+  src: url(MADE-Dillan-latin-sm.woff2);
+}
+
+/* ------- customization-------- */
+$headings-font-family: MADE;
+$font-family-sans-serif: Roboto, sans-serif;
+$font-size-base: 1.2rem;
+$body-color: #646e77;
+$theme-colors: (
+  "primary": #146396,
+);
+$light: #f7f8f8;
+$dark: #0e1e25;
+$headings-color: #146396;
+$jumbotron-bg: transparent;
+$jumbotron-padding: 1rem;
+$border-radius: 6px;
+
+// Navbar
+$navbar-light-color: #0e1e25;
+
+// Style anchor elements.
+$link-color: #146396;
+
+$paragraph-margin-bottom: 2.55rem;
+/* ------- customization-------- */
+
+/* finally, import Bootstrap at the end to set the changes! */
+@import "../scss/bootstrap.scss";
