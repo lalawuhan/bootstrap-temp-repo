@@ -1,0 +1,226 @@
+@font-face {
+  font-family: MADE;
+  src: url(MADE-Dillan-latin-sm.woff2);
+}
+
+/* ------- customization-------- */
+//Colors
+$color-blue: #43b4d8;
+$color-blue-dark: #146396;
+$color-pink: #ff1154;
+$color-teal: #00ad9f;
+$color-teal-dark: #15847d;
+$color-gray: #646e77;
+$headings-font-family: MADE;
+$font-family-sans-serif: Roboto, sans-serif;
+// $font-size-base: 1.2rem;
+$body-color: $color-gray;
+$theme-colors: (
+  "primary": $color-blue-dark,
+);
+$light: #f7f8f8;
+$dark: #0e1e25;
+$black: #000;
+
+//Changing default values
+$headings-color: $color-blue-dark;
+$jumbotron-bg: transparent;
+$jumbotron-padding: 1rem;
+$border-radius: 6px;
+$btn-font-weight: 700;
+$btn-padding-y: 0.5em;
+$btn-padding-x: 1.5em;
+$navbar-light-color: #0e1e25;
+$link-color: $color-blue-dark;
+$secondary: $color-teal-dark;
+$paragraph-margin-bottom: 2.55rem;
+
+@import "../scss/bootstrap.scss";
+
+//TODO: missing overflow variable in bootstrap
+//TODO: hide scrollbar, a11y compliant
+.overflow-auto {
+  overflow: auto;
+}
+.navbar-light .navbar-nav .nav-link--emphasis {
+  color: $color-teal-dark;
+}
+.nav__item {
+  font-weight: 700;
+  white-space: nowrap;
+  font-size: 0.9375em;
+}
+.nav__link {
+  color: $color-teal-dark;
+}
+.heading {
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  font-size: clamp(3em, 6vw, 4.25em);
+  margin-bottom: 0.55em;
+}
+.heading-large {
+  font-size: clamp(2.9em, 5vw, 6em);
+}
+.subheading {
+  font-size: 1.375em;
+  line-height: 1.36;
+  font-weight: 700;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 0.6em;
+}
+.case-study {
+  color: $black;
+}
+.paragraph {
+  font-size: 1em;
+  line-height: 1.75;
+}
+.paragraph-large {
+  font-size: clamp(1.25em, 1.5vw, 1.5em);
+  line-height: 1.8;
+  max-width: 28em;
+  margin-bottom: 2.55em;
+}
+.call-to-action {
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: 700;
+  color: black;
+  text-decoration: underline;
+}
+
+.btn--call-to-action {
+  text-decoration: none;
+  color: $light;
+}
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 3em;
+}
+.card-container {
+  box-shadow: -10px 10px 80px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 1em;
+}
+.tab-btn {
+  border-radius: 500px;
+  text-align: center;
+  margin: 0.5em;
+  flex: 1 1 0;
+  cursor: pointer;
+  padding: 0.8em 1em;
+  background-color: $light;
+  color: $dark;
+}
+.stats-number {
+  color: $color-pink;
+  font-size: 3.75em;
+  line-height: 1.25;
+}
+.stats-description {
+  font-size: 0.6875em;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  display: block;
+}
+.preheading {
+  color: $color-gray;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 0.2em;
+  margin-bottom: 1em;
+  padding: 0 1em;
+}
+.theme-light {
+  color: $black;
+  background-color: $light;
+}
+.theme-dark {
+  color: $light;
+  background-color: $black;
+}
+.terminal-code {
+  text-align: left;
+  font-weight: 700;
+  padding: 1.2em 2em;
+  display: flex;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+}
+.text-emphasize {
+  margin-top: 6.5em;
+  margin-bottom: 2em;
+}
+.teal-accent {
+  color: $color-teal-dark;
+}
+.pink-accent {
+  color: $color-pink;
+}
+.btn-secondary {
+  background-color: $color-teal-dark;
+}
+.twitter-link {
+  color: $color-teal-dark;
+}
+.twitter-card {
+  box-shadow: 0 2px 4px rgba(14, 30, 37, 0.12);
+  padding: 1.5em;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  min-width: 26.5rem;
+  max-width: 72vw;
+  margin-left: 1em;
+}
+.newsletter-text {
+  color: $black;
+  margin: 1.5em 0;
+  font-weight: 700;
+}
+.group-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.newsletter-form {
+  display: flex;
+}
+.form-input {
+  border: 2px solid rgba(14, 30, 37, 0.09);
+  border-radius: 4px;
+  box-shadow: none;
+  line-height: 1.618em;
+  margin: 0;
+  padding: 0.382em 1em;
+  width: 100%;
+  max-width: 25em;
+}
+.footer-block {
+  display: flex;
+  justify-content: center;
+  padding: 2.75em 1em;
+}
+.footer-layout {
+  max-width: 56.25em;
+}
+.footer-title {
+  font-size: 1em;
+  color: $black;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+.footer-links {
+  line-height: 2;
+}
+.footer-copyright {
+  font-weight: 700;
+  color: $black;
+  margin-bottom: 1em;
+}
