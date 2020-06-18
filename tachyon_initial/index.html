@@ -2,9 +2,9 @@
 <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css" />
 
 <body class="sans-serif">
-  <header class="flex flex-wrap justify-center">
-    <nav class="bg-near-white br3 w-90 mv4">
-      <div class="inline-flex items-center">
+  <header class="mh5">
+    <nav class="bg-near-white br3 w-100 inline-flex mv4 pv2 ph3">
+      <div class="items-center w-70-ns w-80-m inline-flex">
         <li class="list pv1 ph2">
           <a class="link dim black b f6 f5-ns dib mr3" href="#" title="Home">
             <img
@@ -14,7 +14,7 @@
             />
           </a>
         </li>
-        <li class="list pv1 ph2">
+        <li class="list pv1 ph2 dn-m">
           <a
             class="underline-hover link dim black-90 fw7"
             href="#"
@@ -23,7 +23,7 @@
             Platform
           </a>
         </li>
-        <li class="list pv1 ph2">
+        <li class="list pv1 ph2 dn-m">
           <a
             class="underline-hover link dim black-90 fw7"
             href="#"
@@ -32,7 +32,7 @@
             Pricing
           </a>
         </li>
-        <li class="list pv1 ph2">
+        <li class="list pv1 ph2 dn-m">
           <a
             class="underline-hover link dim black-90 fw7"
             href="#"
@@ -41,7 +41,7 @@
             Enterprise
           </a>
         </li>
-        <li class="list pv1 ph2">
+        <li class="list pv1 ph2 dn-m">
           <a
             class="underline-hover link dim black-90 fw7"
             href="#"
@@ -50,7 +50,7 @@
             Jamstack
           </a>
         </li>
-        <li class="list pv1 ph2">
+        <li class="list pv1 ph2 dn-m">
           <a
             class="underline-hover link dim black-90 fw7"
             href="#"
@@ -59,23 +59,25 @@
             Docs
           </a>
         </li>
-        <li class="list pv1 ph2">
-          <a
-            class="underline-hover link dim black-90 fw7"
-            href="#"
-            title="Contact"
-          >
+        <li class="list pv1 ph2 dn-m">
+          <a class="underline-hover link dim black-90 fw7" href="#">
             Blog
           </a>
         </li>
       </div>
-      <ul class="inline-flex ml6">
-        <li class="list pv1 ph2">
-          <a
-            class="underline-hover link dim black-90 fw7"
-            href="#"
-            title="Contact"
-          >
+      <!-- hamburger icon : display none value changes -->
+      <div class="inline-flex w-30-ns w-20-m justify-end items-center">
+        <li class="list pv1 ph2 dn-l">
+          <a class="underline-hover link dim black-90 fw7" href="#">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2000px-Hamburger_icon.svg.png"
+              alt="hamburger menu icon "
+              width="20px"
+            />
+          </a>
+        </li>
+        <li class="list pv1 ph2 dn-m">
+          <a class="underline-hover link dim black-90 fw7" href="#">
             <img
               src="https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-512.png"
               alt="search-icon"
@@ -83,7 +85,8 @@
             />
           </a>
         </li>
-        <li class="list pv1 ph2">
+
+        <li class="list pv1 ph2 dn-m">
           <a
             class="underline-hover link dim black-90 fw7"
             href="#"
@@ -92,7 +95,7 @@
             Login
           </a>
         </li>
-        <li class="list pv1 ph2">
+        <li class="list pv1 ph2 dn-m">
           <a
             class="underline-hover link dim black-90 fw7"
             href="#"
@@ -107,25 +110,25 @@
             />
           </a>
         </li>
-      </ul>
+      </div>
     </nav>
   </header>
 
-  <section class="ph5 center">
-    <h1 class="f-subheadline lh-solid">
-      <span class="db-sm">
+  <section class="ph5 center mb4">
+    <h1 class="f-subheadline f1-m measure lh-solid">
+      <span class="db-l">
         The fastest way to
       </span>
-      <span class="">build the fastest sites. </span>
+      <span class="db-l">build the fastest sites. </span>
     </h1>
-    <p class="lh-copy f4">
+    <p class="lh-copy f4 measure mid-gray mb4">
       <strong> More speed. Less spend.</strong> 900,000+ developers & businesses
       use Netlify to run web projects at global scale—without servers, devops,
       or costly infrastructure.
     </p>
     <div class="flex flex-wrap items-center">
-      <button class="br2 pv2 ph4 fw7 f5">Get started in seconds</button>
-      <a href="" class="f5 ml3"
+      <button class="br3 pv2 ph4 fw7 f5">Get started in seconds</button>
+      <a href="" class="f5 ml3 fw7"
         >Questions? Talk to an expert
         <img
           src="https://cdn.onlinewebfonts.com/svg/img_423359.png"
@@ -137,9 +140,9 @@
   </section>
   <!-- TABS SECTION -->
   <div class="flex w-100 justify-center">
-    <section class="w-90 mt5 h-100 shadow-4 pt3 ph4 pb4">
-      <div class="flex flex-wrap justify-between pv3">
-        <button class="br-pill flex-auto ma2">
+    <section class="w-90 mt5 h-100 shadow-4 pt3 ph4 pb4 br3">
+      <div class="flex flex-wrap justify-between pv1">
+        <button class="br-pill flex-auto ma2 ba b--near-white pa3">
           <svg
             width="112"
             height="19"
@@ -159,7 +162,7 @@
             ></path>
           </svg>
         </button>
-        <button class="br-pill flex-auto ma2">
+        <button class="br-pill flex-auto ma2 ba b--near-white pa3">
           <svg
             width="62"
             height="23"
@@ -174,7 +177,7 @@
             ></path>
           </svg>
         </button>
-        <button class="br-pill flex-auto ma2">
+        <button class="br-pill flex-auto ma2 ba b--near-white pa3">
           <svg
             width="127"
             height="17"
@@ -187,7 +190,7 @@
             ></path>
           </svg>
         </button>
-        <button class="br-pill flex-auto ma2">
+        <button class="br-pill flex-auto ma2 ba b--near-white pa3">
           <svg
             width="121"
             height="24"
@@ -227,7 +230,7 @@
             ></path>
           </svg>
         </button>
-        <button class="br-pill flex-auto ma2">
+        <button class="br-pill flex-auto ma2 ba b--near-white pa3">
           <svg
             width="59"
             height="25"
@@ -257,7 +260,7 @@
       </div>
       <!-- ARTICLE SECTION -->
       <div class="m9 pv4 ph3 flex-wrap h-100">
-        <div class="fl w-100 w-third-ns">
+        <div class="fl w-40-m w-20-l">
           <img
             src="https://www.netlify.com/v3/img/build/ef7c5bc4-350.webp"
             alt="loblox"
@@ -265,18 +268,18 @@
           />
         </div>
 
-        <div class="fl w-100 w-third-ns ph4">
+        <div class="fl w-60-m w-50-l ph4">
           <h4 class="f3 ma0">
             Canada's largest grocer delivers sites 10x faster, while saving
             money
           </h4>
-          <p class="f5 lh-copy">
+          <p class="f5 lh-copy mid-gray">
             Netlify helps the Loblaw engineering productivity team achieve its
             mission of reducing toil, increasing happiness and getting sites
             launched fast.
           </p>
           <span class="flex items-center">
-            <a href="" class="f5"
+            <a href="" class="f5 fw7"
               >Read the case study
               <img
                 src="https://cdn.onlinewebfonts.com/svg/img_423359.png"
@@ -287,14 +290,18 @@
           </span>
         </div>
 
-        <div class="fl w-100 w-third-ns">
+        <div class="fl w-100 w-30-l inline-flex justify-around-ns mt4-m mb4-m">
           <div>
-            <h1 class="f1">92%</h1>
-            <span class="f7 tracked">better performance </span>
+            <span class="f1 db fw7">92%</span>
+            <span class="f7 fw7 tracked-tight ttu mid-gray"
+              >better performance
+            </span>
           </div>
           <div>
-            <h1 class="f1">38%</h1>
-            <span class="f7 tracked">monthly cost savings </span>
+            <span class="f1 db fw7">$38k</span>
+            <span class="f7 fw7 tracked-tight ttu mid-gray"
+              >monthly cost savings
+            </span>
           </div>
         </div>
       </div>
@@ -302,9 +309,9 @@
   </div>
   <!-- SUBHEADING -->
   <div class="flex flex-column tc mt5">
-    <p class="tracked b">SERVER LESS, DO MORE</p>
-    <h2 class="f1 mt2 mb2">
-      <span class="">Just git push to </span>
+    <p class="tracked b ttu tracked-mega mid-gray">Server less, do more</p>
+    <h2 class="f1 mt2 mb measure">
+      <span class="db">Just git push to </span>
       <span>deploy worldwide.</span>
     </h2>
   </div>
@@ -375,8 +382,8 @@
   </section>
   <!-- BUTTON GROUP -->
   <div class="flex flex-wrap justify-center items-center w-100 pt5">
-    <button class="br2 pv2 ph4 fw7 f5">Get started in seconds</button>
-    <a href="" class="f5 ml3"
+    <button class="br3 pv2 ph4 fw7 f5">Get started in seconds</button>
+    <a href="" class="f5 ml3 fw7"
       >Questions? Talk to an expert
       <img
         src="https://cdn.onlinewebfonts.com/svg/img_423359.png"
@@ -388,9 +395,9 @@
 
   <!-- SUBHEADING -->
   <div class="flex flex-column tc mt5">
-    <p class="tracked b">ALL SET. NO SETUP.</p>
+    <p class="tracked b ttu tracked-mega mid-gray">All set. No setup.</p>
     <h2 class="f1 mt2 mb2">
-      <span>Ready to roll. </span>
+      <span class="db">Ready to roll. </span>
       <span>Easy to extend. </span>
     </h2>
   </div>
@@ -472,15 +479,15 @@
 
   <!-- BUTTON GROUP -->
   <div class="flex flex-column tc mt5 w-100">
-    <p class="tracked b">DON’T JUST TAKE OUR WORD FOR IT</p>
-    <h2 class="f1 mt2 mb2">
-      Ready to try Netlify?
-    </h2>
+    <p class="tracked b ttu tracked-mega mid-gray">
+      Don't just take our word for it
+    </p>
+    <h2 class="f1 mt2 mb2">Ready to try <span class="db-m">Netlify?</span></h2>
   </div>
 
   <div class="flex flex-wrap justify-center items-center w-100 pt5">
-    <button class="br2 pv2 ph4 fw7 f5">Get started for free</button>
-    <a href="" class="f5 ml3"
+    <button class="br3 pv2 ph4 fw7 f5">Get started for free</button>
+    <a href="" class="f5 ml3 fw7"
       >Questions? Talk to an expert
       <img
         src="https://cdn.onlinewebfonts.com/svg/img_423359.png"
