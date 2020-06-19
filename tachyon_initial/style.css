@@ -35,7 +35,7 @@
 }
 
 /* utility classes such as cards, grid, type, buttons,
-grid would know about ccolumns, gutter,
+grid would know about columns, gutter,
 text would know about font family, font size, letter spacing and line height
 button group is the perfect place to have an abstraction : utility classes like margin, padding, max width */
 body {
@@ -96,48 +96,26 @@ body {
   border-radius: 10px;
 }
 .bn {
-  border: nonel;
+  border: none;
 }
 .box-shadow-1 {
   box-shadow: 0 2px 4px rgba(14, 30, 37, 0.12);
 }
-/* .display {
-  font-family: var(--font-display);
-  font-weight: 400;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-} */
-/* .display__heading {
-  font-size: clamp(2.9em, 5vw, 6em);
-}
-.display__subheading {
-  font-size: clamp(3em, 6vw, 4.25em);
-} */
-/* .subheading {
-  font-size: 1.375em;
-  line-height: 1.36;
-  font-weight: 700;
-} */
-/* .button {
-  color: var(--color-white);
-  border: none;
-  padding: 0.5em 1.5em;
-} */
-/* .cta-link {
-  font-size: 1em;
-  line-height: 1.5;
-  align-items: center;
-  color: var(--color-black);
-} */
-/* .card {
-  background-color: var(--color-white);
-  min-width: 26.5rem;
-  max-width: 72vw;
-  padding: 1.5em;
-  border-radius: 10px;
-  border: 1px solid #eee;
-  box-shadow: 0 2px 4px rgba(14, 30, 37, 0.12);
-} */
+
 .dotted-bg {
   background: url("https://www.netlify.com/v3/img/components/dots-teal.svg");
+}
+
+/* layout */
+.grid-x {
+  display: grid;
+  grid-gap: 1.2em;
+  grid-template-columns: repeat(auto-fill, minmax(26.5em, 72rem));
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(26.5em, 1fr);
+  overflow-x: auto;
+}
+.flex-c {
+  display: flex;
+  align-items: center;
 }
