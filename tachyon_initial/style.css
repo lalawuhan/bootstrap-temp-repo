@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "MADE";
+  src: url(MADE-Dillan-latin-sm.woff2);
+}
+:root {
+  --color-teal: #00ad9f;
+  --color-teal-dark: #15847d;
+  --color-teal-bright: #00e0ce;
+  --color-pink: #ff6969;
+  --color-pink-dark: #ff1154;
+  --color-pink-accessible: #e8114e;
+  --color-orange: #f86816;
+  --color-orange-dark: #b74808;
+  --color-blue: #43b4d8;
+  --color-blue-dark: #146396;
+  --color-blue-dark-b: #133857;
+  --color-violet: #c57aa2;
+  --color-violet-dark: #7c0c64;
+  --color-yellow: #ffad43;
+  --color-yellow-dark: #cc801f;
+  --color-white: #fff;
+  --color-black: #0e1e25;
+  --color-gray-1: #2d3b41;
+  --color-gray-2: #646e73;
+  --color-gray-3: #757575;
+  --color-gray-4: #bdbdbd;
+  --color-gray-5: #e0e0e0;
+  --color-gray-6: #f7f8f8;
+  --font-display: "MADE", sans-serif;
+  --font-sans-serif: Roboto, sans-serif;
+  --font-monospace: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  --border-radius: 6px;
+  --color-focus-ring: var(--color-teal);
+  --grid-gutter: 2.5rem;
+}
+body {
+  font-family: var(--font-sans-serif);
+  color: var(--color-gray-2);
+}
+
+.display {
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.display__heading {
+  font-size: clamp(2.9em, 5vw, 6em);
+  color: var(--color-blue-dark);
+}
+.display__subheading {
+  font-size: clamp(3em, 6vw, 4.25em);
+  color: var(--color-blue-dark);
+}
+.subheading {
+  font-size: 1.375em;
+  line-height: 1.36;
+  font-weight: 700;
+}
+.button {
+  background-color: var(--color-blue-dark);
+  color: var(--color-white);
+  border: none;
+  padding: 0.5em 1.5em;
+}
+.cta-link {
+  font-size: 1em;
+  line-height: 1.5;
+  align-items: center;
+  color: var(--color-black);
+}
+.card {
+  background-color: var(--color-white);
+  min-width: 26.5rem;
+  max-width: 72vw;
+  padding: 1.5em;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 4px rgba(14, 30, 37, 0.12);
+}
+.dotted-bg {
+  background: url("https://www.netlify.com/v3/img/components/dots-teal.svg");
+}

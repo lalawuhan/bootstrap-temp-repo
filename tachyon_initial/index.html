@@ -1,9 +1,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css" />
-
-<body class="sans-serif">
+<link rel="stylesheet" href="style.css" />
+<!-- TODO: limiting page width messes up scrolling behaviour of twitter cards -->
+<body>
   <div class="mw9 center">
-    <header class="mh5">
+    <header class="mh4-m mh6-l">
       <nav class="bg-near-white br3 w-100 inline-flex mv4 pv2 ph3">
         <div class="items-center w-70-ns w-80-m inline-flex">
           <li class="list pv1 ph2">
@@ -114,8 +115,8 @@
       </nav>
     </header>
 
-    <section class="ph5 center mb4">
-      <h1 class="f-subheadline f1-m measure lh-solid">
+    <section class="ph4-m ph6-l center mb4">
+      <h1 class="f-subheadline f1-m measure lh-solid display display__heading">
         <span class="db-l">
           The fastest way to
         </span>
@@ -127,8 +128,10 @@
         servers, devops, or costly infrastructure.
       </p>
       <div class="flex flex-wrap items-center">
-        <button class="br3 pv2 ph4 fw7 f5">Get started in seconds</button>
-        <a href="" class="f5 ml3 fw7"
+        <button class="br3 pv2 ph4 fw7 f5 button">
+          Get started in seconds
+        </button>
+        <a href="" class="f5 ml3 fw7 cta-link"
           >Questions? Talk to an expert
           <img
             src="https://cdn.onlinewebfonts.com/svg/img_423359.png"
@@ -273,7 +276,7 @@
           </div>
 
           <div class="fl w-60-m w-50-l ph4 pb4">
-            <h4 class="f3 ma0">
+            <h4 class="f3 ma0 subheading">
               Canada's largest grocer delivers sites 10x faster, while saving
               money
             </h4>
@@ -283,7 +286,7 @@
               launched fast.
             </p>
             <span class="flex items-center">
-              <a href="" class="f5 fw7"
+              <a href="" class="f5 fw7 cta-link"
                 >Read the case study
                 <img
                   src="https://cdn.onlinewebfonts.com/svg/img_423359.png"
@@ -296,14 +299,14 @@
           <div
             class="fl w-100 w-30-l inline-flex justify-around-ns mt4-m mb4-m"
           >
-            <div>
-              <span class="f1 db fw7">92%</span>
+            <div class="ph1">
+              <span class="f1 db fw7 display__subheading">92%</span>
               <span class="f7 fw7 tracked-tight ttu mid-gray"
                 >better performance
               </span>
             </div>
-            <div>
-              <span class="f1 db fw7">$38k</span>
+            <div class="ph1">
+              <span class="f1 db fw7 display__subheading">$38k</span>
               <span class="f7 fw7 tracked-tight ttu mid-gray"
                 >monthly cost savings
               </span>
@@ -317,18 +320,18 @@
 
     <div class="flex flex-column tc mt5 items-center">
       <p class="tracked b ttu tracked-mega mid-gray">Server less, do more</p>
-      <h2 class="f1 mt2 mb measure">
+      <h2 class="f1 mt2 mb measure display display__subheading">
         <span class="db">Just git push to </span>
         <span>deploy worldwide.</span>
       </h2>
     </div>
     <!-- SUBHEADING TABLE -->
-    <section class="w-100 mh4">
+    <section class="w-80-l center mh4-m">
       <div class="fl w-100 w-third-l">
-        <h2>
+        <h2 class="subheading">
           1. Connect your repository
         </h2>
-        <p class="mb3 mid-gray">
+        <p class="mb3 mid-gray measure-narrow">
           Netlify detects the changes to push to git and triggers automated
           deploys.
         </p>
@@ -359,29 +362,29 @@
         </div>
       </div>
       <div class="fl w-100 w-third-l">
-        <h2>
+        <h2 class="subheading">
           2. Add your build settings
         </h2>
-        <p class="mb3 mid-gray">
+        <p class="mb3 mid-gray measure-narrow">
           Netlify provides you a powerful and totally customizable build
           environment.
         </p>
         <div>
-          <p class="w-80 mh2 br2 fw7 pv3 ph4 bg-near-white">
+          <p class="w-80 br2 fw7 pv3 ph4 bg-near-white">
             yarn build
           </p>
         </div>
       </div>
       <div class="fl w-100 w-third-l">
-        <h2>
+        <h2 class="subheading">
           3. Deploy your website
         </h2>
-        <p class="mb3 mid-gray">
+        <p class="mb3 mid-gray measure-narrow">
           Publishing is seamless with instant cache invalidation and atomic
           deploys.
         </p>
         <div>
-          <p class="w-80 mh2 br2 fw7 pv3 ph4 bg-near-black light-gray">
+          <p class="w-80 br2 fw7 pv3 ph4 bg-near-black light-gray">
             Site is live ✨
           </p>
         </div>
@@ -389,8 +392,8 @@
     </section>
     <!-- BUTTON GROUP -->
     <div class="flex flex-wrap justify-center items-center w-100 pt5">
-      <button class="br3 pv2 ph4 fw7 f5">Get started in seconds</button>
-      <a href="" class="f5 ml3 fw7"
+      <button class="br3 pv2 ph4 fw7 f5 button">Get started in seconds</button>
+      <a href="" class="f5 ml3 fw7 cta-link"
         >Questions? Talk to an expert
         <img
           src="https://cdn.onlinewebfonts.com/svg/img_423359.png"
@@ -404,7 +407,7 @@
 
     <div class="flex flex-column tc mt5">
       <p class="tracked b ttu tracked-mega mid-gray">All set. No setup.</p>
-      <h2 class="f1 mt2 mb2">
+      <h2 class="f1 mt2 mb2 display display__subheading">
         <span class="db">Ready to roll. </span>
         <span>Easy to extend. </span>
       </h2>
@@ -420,9 +423,9 @@
         <div class="w-100 w-80-ns w-50-l">
           <div class="">
             <div class="">
-              <h4 class="f3">
+              <h2 class="f3 subheading">
                 Add dynamic functionality with built‑in applications
-              </h4>
+              </h2>
             </div>
             <div class="">
               <p class="">
@@ -491,14 +494,14 @@
       <p class="tracked b ttu tracked-mega mid-gray">
         Don't just take our word for it
       </p>
-      <h2 class="f1 mt2 mb2">
+      <h2 class="f1 mt2 mb2 display display__subheading">
         Ready to try <span class="db-m di-m">Netlify?</span>
       </h2>
     </div>
 
     <div class="flex flex-wrap justify-center items-center w-100 pt5">
-      <button class="br3 pv2 ph4 fw7 f5">Get started for free</button>
-      <a href="" class="f5 ml3 fw7"
+      <button class="br3 pv2 ph4 fw7 f5 button">Get started for free</button>
+      <a href="" class="f5 ml3 fw7 cta-link"
         >Questions? Talk to an expert
         <img
           src="https://cdn.onlinewebfonts.com/svg/img_423359.png"
@@ -510,9 +513,9 @@
 
     <!-- SCROLLABLE AREA -->
 
-    <div class="w-100 ph3 overflow-x-auto inline-flex mt5 mb5">
-      <div class="w-100 bg-black-20 mh2 pa3 br3 shadow-4">
-        <div class="w5">
+    <div class="w-100 ph2 overflow-x-auto inline-flex mt5 mb5 dotted-bg">
+      <div class="bg-black-20 mh2 pa3 br3 card">
+        <div>
           <p class="lh-copy">
             <a>Vuejs.org</a> is now powered by <a>@Netlify</a> with a free open
             source team plan. Really really impressive and smooth deployment
@@ -540,8 +543,8 @@
           </div>
         </div>
       </div>
-      <div class="w-100 bg-black-10 mh2 pa3 br3 shadow-4">
-        <div class="w5">
+      <div class="bg-black-10 mh2 pa3 br3 card">
+        <div>
           <p class="lh-copy">
             Haven't been as impressed by a software product as I am with
             <a>@Netlify</a> in a long time. Huge time saver, works as promised.
@@ -569,8 +572,8 @@
           </div>
         </div>
       </div>
-      <div class="w-100 bg-black-05 mh2 pa3 br3 shadow-4">
-        <div class="w5">
+      <div class="bg-black-05 mh2 pa3 br3 card">
+        <div>
           <p class="lh-copy">
             I think <a>@netlify</a> might just be the very best SaaS app I have
             ever had the privilege to use. It is just *amazing*.
@@ -597,8 +600,8 @@
           </div>
         </div>
       </div>
-      <div class="w-100 bg-black-10 mh2 pa3 br3 shadow-4">
-        <div class="w5">
+      <div class="bg-black-10 mh2 pa3 br3 card">
+        <div>
           <p class="lh-copy">
             Just migrated a few SPAs to
             <a>@Netlify</a>. Literally impossible to make the process any
@@ -626,8 +629,8 @@
           </div>
         </div>
       </div>
-      <div class="w-100 bg-black-05 mh2 pa3 br3 shadow-4">
-        <div class="w5">
+      <div class="bg-black-05 mh2 pa3 br3 card">
+        <div>
           <p class="lh-copy">
             Gotta say, <a>@Netlify</a> has gotten really good. Great for hosting
             PWAs/static sites. So many powerful free features!
@@ -654,8 +657,8 @@
           </div>
         </div>
       </div>
-      <div class="w-100 bg-black-05 mh2 pa3 br3 shadow-4">
-        <div class="w5">
+      <div class="bg-black-05 mh2 pa3 br3 card">
+        <div>
           <p class="lh-copy">
             just migrated my @GoHugoIO blog from github pages to
             <a>@Netlify</a>. Totally hassle free. @letsencrypt certificate in 1
@@ -683,8 +686,8 @@
           </div>
         </div>
       </div>
-      <div class="w-100 bg-black-05 mh2 pa3 br3 shadow-4">
-        <div class="w5">
+      <div class="bg-black-05 mh2 pa3 br3 card">
+        <div>
           <p class="lh-copy">
             I just took <a>@Netlify</a> out for the first time and it's nuts:
             CI/CD, forms, split testing are supported out of the box. Lambda
@@ -741,7 +744,7 @@
 
     <!-- FOOTER NAV -->
 
-    <div class="cf flex flex-wrap justify-center w-100 mt5">
+    <div class="cf flex flex-wrap justify-center w-100 mt5 ph4-m ph6-l">
       <section class="fl w-50 dib-ns w-auto-ns mr4-m mr5-l mb4 pr2 pr0-ns">
         <h4 class="f5 f4-l fw6">Why Netlify</h4>
         <ul class="list pa0">
