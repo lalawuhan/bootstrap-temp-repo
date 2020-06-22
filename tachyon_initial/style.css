@@ -79,11 +79,9 @@ body {
 .headline-xs {
   font-size: 1em;
   margin: 0 0 1em;
-  white-space: nowrap;
 }
 .list-m {
   line-height: 2;
-  white-space: nowrap;
   text-decoration: none;
 }
 .tracked-xs {
@@ -117,6 +115,9 @@ body {
   padding: 1.5em;
   border-radius: 10px;
   margin: 0 0, 5rem;
+  background: var(--color-white);
+  border: 1px solid var(--color-gray-6);
+  box-shadow: 0 2px 4px rgba(14, 30, 37, 0.12);
 }
 
 /* hiding scrollbar */
