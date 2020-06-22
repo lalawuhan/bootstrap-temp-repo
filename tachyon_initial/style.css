@@ -31,13 +31,11 @@
   --font-monospace: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
   --border-radius: 6px;
   --color-focus-ring: var(--color-teal);
-  --grid-gutter: 2.5rem;
+  --grid-gutter: 1.2rem;
+  --card-width-sm: 26.5rem;
+  --card-width-m: 72vw;
 }
 
-/* utility classes such as cards, grid, type, buttons,
-grid would know about columns, gutter,
-text would know about font family, font size, letter spacing and line height
-button group is the perfect place to have an abstraction : utility classes like margin, padding, max width */
 body {
   font-family: var(--font-sans-serif);
   color: var(--color-gray-2);
@@ -59,6 +57,7 @@ body {
 .teal-bg {
   background-color: var(--color-teal-dark);
 }
+
 /* Typography */
 .title-m {
   font-size: clamp(3em, 6vw, 4.25em);
@@ -75,7 +74,7 @@ body {
 .tracked-xs {
   letter-spacing: 0.02em;
 }
-.tracked-s {
+.lh-s {
   line-height: 1.36;
 }
 
@@ -87,10 +86,10 @@ body {
   padding: 1.5em;
 }
 .min-w-m {
-  min-width: 26.5rem;
+  min-width: var(--card-width-sm);
 }
 .max-w-m {
-  max-width: 72vw;
+  max-width: var(--card-width-m);
 }
 .br10 {
   border-radius: 10px;
@@ -101,21 +100,29 @@ body {
 .box-shadow-1 {
   box-shadow: 0 2px 4px rgba(14, 30, 37, 0.12);
 }
-
 .dotted-bg {
   background: url("https://www.netlify.com/v3/img/components/dots-teal.svg");
 }
 
 /* layout */
-.grid-x {
+.grid-carousel {
   display: grid;
-  grid-gap: 1.2em;
-  grid-template-columns: repeat(auto-fill, minmax(26.5em, 72rem));
+  grid-gap: var(--grid-gutter);
   grid-auto-flow: column;
-  grid-auto-columns: minmax(26.5em, 1fr);
+  grid-auto-columns: minmax(var(--card-width-sm), 1fr);
   overflow-x: auto;
 }
 .flex-c {
   display: flex;
   align-items: center;
+}
+
+/* hiding scrollbar */
+.scroll-hide {
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+.scroll-hide::-webkit-scrollbar {
+  width: 0;
+  display: none;
 }
