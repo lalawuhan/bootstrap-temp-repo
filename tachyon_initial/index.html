@@ -1,7 +1,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css" />
 <link rel="stylesheet" href="style.css" />
-<!-- TODO: limiting page width messes up scrolling behaviour of twitter cards -->
+
 <body>
   <div class="mw9 center">
     <header class="mh4-m mh6-l">
@@ -116,9 +116,7 @@
     </header>
 
     <section class="ph4-m ph6-l center mb4">
-      <h1
-        class="f-subheadline f1-m measure lh-solid fw4 font-serif lh-title tracked-xs title-lg blue"
-      >
+      <h1 class="tracked-xs blue heading-l">
         <span class="db-l">
           The fastest way to
         </span>
@@ -299,16 +297,16 @@
             </span>
           </div>
           <div
-            class="fl w-100 w-30-l inline-flex justify-around-ns mt4-m mb4-m"
+            class="fl w-100 w-30-l inline-flex justify-around-ns mt4-m mb4-m tc"
           >
             <div class="ph1">
-              <span class="f1 db fw7 title-m pink">92%</span>
+              <span class="db heading-m pink">92%</span>
               <span class="f7 fw7 tracked-tight ttu mid-gray"
                 >better performance
               </span>
             </div>
             <div class="ph1">
-              <span class="f1 db fw7 title-m pink">$38k</span>
+              <span class="db heading-m pink">$38k</span>
               <span class="f7 fw7 tracked-tight ttu mid-gray"
                 >monthly cost savings
               </span>
@@ -322,17 +320,15 @@
 
     <div class="flex flex-column tc mt5 items-center">
       <p class="tracked b ttu tracked-mega mid-gray">Server less, do more</p>
-      <h2
-        class="f1 mt2 mb measure fw4 font-serif lh-title tracked-xs title-m blue"
-      >
+      <h2 class="mt2 heading-m tracked-xs blue">
         <span class="db">Just git push to </span>
         <span>deploy worldwide.</span>
       </h2>
     </div>
     <!-- SUBHEADING TABLE -->
-    <section class="w-80-l center mh4-m">
+    <section class="w-90-l center mh4-m">
       <div class="fl w-100 w-third-l">
-        <h2 class="text-l lh-s fw7 blue">
+        <h2 class="heading-sm blue">
           1. Connect your repository
         </h2>
         <p class="mb3 mid-gray measure-narrow">
@@ -366,7 +362,7 @@
         </div>
       </div>
       <div class="fl w-100 w-third-l">
-        <h2 class="text-l lh-s fw7 blue">
+        <h2 class="headline-sm blue">
           2. Add your build settings
         </h2>
         <p class="mb3 mid-gray measure-narrow">
@@ -380,7 +376,7 @@
         </div>
       </div>
       <div class="fl w-100 w-third-l">
-        <h2 class="text-l lh-s fw7 blue">
+        <h2 class="headline-sm blue">
           3. Deploy your website
         </h2>
         <p class="mb3 mid-gray measure-narrow">
@@ -394,7 +390,9 @@
         </div>
       </div>
     </section>
+
     <!-- BUTTON GROUP -->
+
     <div class="flex flex-wrap justify-center items-center w-100 pt5">
       <button class="br3 pv2 ph4 fw7 f5 pa-xs bn blue-bg white">
         Get started in seconds
@@ -413,7 +411,7 @@
 
     <div class="flex flex-column tc mt5">
       <p class="tracked b ttu tracked-mega mid-gray">All set. No setup.</p>
-      <h2 class="f1 mt2 mb2 fw4 font-serif lh-title tracked-xs title-m pink">
+      <h2 class="mt2 heading-m tracked-xs pink">
         <span class="db">Ready to roll. </span>
         <span>Easy to extend. </span>
       </h2>
@@ -429,7 +427,7 @@
         <div class="w-100 w-80-ns w-50-l">
           <div class="">
             <div class="">
-              <h2 class="f3 text-l lh-s fw7 pink">
+              <h2 class="heading-sm pink">
                 Add dynamic functionality with built‑in applications
               </h2>
             </div>
@@ -495,17 +493,19 @@
         </div>
       </div>
     </div>
+
     <!-- BUTTON GROUP -->
+
     <div class="flex flex-column tc mt5 w-100">
       <p class="tracked b ttu tracked-mega mid-gray">
         Don't just take our word for it
       </p>
-      <h2 class="f1 mt2 mb2 fw4 font-serif lh-title tracked-xs title-m teal">
+      <h2 class="heading-m tracked-xs teal">
         Ready to try <span class="db-m di-m">Netlify?</span>
       </h2>
     </div>
 
-    <div class="flex flex-wrap justify-center items-center w-100 pt5">
+    <div class="flex flex-wrap justify-center items-center w-100">
       <button class="br3 pv2 ph4 fw7 f5 pa-xs bn teal-bg white">
         Get started for free
       </button>
@@ -525,7 +525,7 @@
       class="w-100 ph2 overflow-x-auto inline-flex mt5 mb5 dotted-bg scroll-hide"
     >
       <div
-        class="mh2 pa3 br3 ba b--black-10 box-shadow-1 min-w-m max-w-m br10 pa-s bg-white"
+        class="card-s ba b--black-10 box-shadow-1 min-w-m max-w-m bg-white mh2"
       >
         <div>
           <p class="lh-copy">
@@ -556,7 +556,7 @@
         </div>
       </div>
       <div
-        class="mh2 pa3 br3 ba b--black-10 box-shadow-1 min-w-m max-w-m br10 pa-s bg-white"
+        class="card-s ba b--black-10 box-shadow-1 min-w-m max-w-m bg-white mh2"
       >
         <div>
           <p class="lh-copy">
@@ -587,7 +587,7 @@
         </div>
       </div>
       <div
-        class="mh2 pa3 br3 ba b--black-10 box-shadow-1 min-w-m max-w-m br10 pa-s bg-white"
+        class="card-s ba b--black-10 box-shadow-1 min-w-m max-w-m bg-white mh2"
       >
         <div>
           <p class="lh-copy">
@@ -617,7 +617,7 @@
         </div>
       </div>
       <div
-        class="mh2 pa3 br3 ba b--black-10 box-shadow-1 min-w-m max-w-m br10 pa-s bg-white"
+        class="card-s ba b--black-10 box-shadow-1 min-w-m max-w-m bg-white mh2"
       >
         <div>
           <p class="lh-copy">
@@ -648,7 +648,7 @@
         </div>
       </div>
       <div
-        class="mh2 pa3 br3 ba b--black-10 box-shadow-1 min-w-m max-w-m br10 pa-s bg-white"
+        class="card-s ba b--black-10 box-shadow-1 min-w-m max-w-m bg-white mh2"
       >
         <div>
           <p class="lh-copy">
@@ -678,7 +678,7 @@
         </div>
       </div>
       <div
-        class="mh2 pa3 br3 ba b--black-10 box-shadow-1 min-w-m max-w-m br10 pa-s bg-white"
+        class="card-s ba b--black-10 box-shadow-1 min-w-m max-w-m bg-white mh2"
       >
         <div>
           <p class="lh-copy">
@@ -709,7 +709,7 @@
         </div>
       </div>
       <div
-        class="mh2 pa3 br3 ba b--black-10 box-shadow-1 min-w-m max-w-m br10 pa-s bg-white"
+        class="card-s ba b--black-10 box-shadow-1 min-w-m max-w-m bg-white mh2"
       >
         <div>
           <p class="lh-copy">
@@ -742,10 +742,9 @@
     </div>
 
     <!-- GRID experiment -->
+
     <div class="grid-carousel pa2 scroll-hide">
-      <div
-        class="mh2 pa3 br3 ba b--black-10 box-shadow-1 min-w-m max-w-m br10 pa-s bg-white"
-      >
+      <div class="card-s ba b--black-10 box-shadow-1 min-w-m max-w-m bg-white">
         <div>
           <p class="lh-copy">
             <a>Vuejs.org</a> is now powered by <a>@Netlify</a> with a free open
@@ -774,9 +773,7 @@
           </div>
         </div>
       </div>
-      <div
-        class="mh2 pa3 br3 ba b--black-10 box-shadow-1 min-w-m max-w-m br10 pa-s bg-white"
-      >
+      <div class="card-s ba b--black-10 box-shadow-1 min-w-m max-w-m bg-white">
         <div>
           <p class="lh-copy">
             Haven't been as impressed by a software product as I am with
@@ -805,9 +802,7 @@
           </div>
         </div>
       </div>
-      <div
-        class="mh2 pa3 br3 ba b--black-10 box-shadow-1 min-w-m max-w-m br10 pa-s bg-white"
-      >
+      <div class="card-s ba b--black-10 box-shadow-1 min-w-m max-w-m bg-white">
         <div>
           <p class="lh-copy">
             I think <a>@netlify</a> might just be the very best SaaS app I have
@@ -835,9 +830,7 @@
           </div>
         </div>
       </div>
-      <div
-        class="mh2 pa3 br3 ba b--black-10 box-shadow-1 min-w-m max-w-m br10 pa-s bg-white"
-      >
+      <div class="card-s ba b--black-10 box-shadow-1 min-w-m max-w-m bg-white">
         <div>
           <p class="lh-copy">
             Just migrated a few SPAs to
@@ -866,9 +859,7 @@
           </div>
         </div>
       </div>
-      <div
-        class="mh2 pa3 br3 ba b--black-10 box-shadow-1 min-w-m max-w-m br10 pa-s bg-white"
-      >
+      <div class="card-s ba b--black-10 box-shadow-1 min-w-m max-w-m bg-white">
         <div>
           <p class="lh-copy">
             Gotta say, <a>@Netlify</a> has gotten really good. Great for hosting
@@ -896,9 +887,7 @@
           </div>
         </div>
       </div>
-      <div
-        class="mh2 pa3 br3 ba b--black-10 box-shadow-1 min-w-m max-w-m br10 pa-s bg-white"
-      >
+      <div class="card-s ba b--black-10 box-shadow-1 min-w-m max-w-m bg-white">
         <div>
           <p class="lh-copy">
             just migrated my @GoHugoIO blog from github pages to
@@ -927,9 +916,7 @@
           </div>
         </div>
       </div>
-      <div
-        class="mh2 pa3 br3 ba b--black-10 box-shadow-1 min-w-m max-w-m br10 pa-s bg-white"
-      >
+      <div class="card-s ba b--black-10 box-shadow-1 min-w-m max-w-m bg-white">
         <div>
           <p class="lh-copy">
             I just took <a>@Netlify</a> out for the first time and it's nuts:
@@ -988,51 +975,51 @@
 
     <!-- FOOTER NAV -->
 
-    <div class="cf flex flex-wrap justify-center w-100 mt5 ph4-m ph6-l">
-      <section class="fl w-50 dib-ns w-auto-ns mr4-m mr5-l mb4 pr2 pr0-ns">
-        <h4 class="f5 f4-l fw6">Why Netlify</h4>
+    <div class="cf flex flex-wrap justify-center w-100 mt5 ph4-m">
+      <section class="w-auto-ns mr4-m mr5-l mb4 pr0-ns">
+        <h4 class="headline-xs black">Why Netlify</h4>
         <ul class="list pa0">
-          <li class="lh-copy db black-70">Customers</li>
-          <li class="lh-copy black-70">Enterprise</li>
-          <li class="lh-copy black-70">Whitepaper</li>
+          <li class="list-m black-70">Customers</li>
+          <li class="list-m black-70">Enterprise</li>
+          <li class="list-m black-70">Whitepaper</li>
         </ul>
       </section>
-      <section class="fl w-50 dib-ns w-auto-ns mr4-m mr5-l mb4 pr2 pr0-ns">
-        <h4 class="f5 f4-l fw6">Products</h4>
+      <section class="w-auto-ns mr4-m mr5-l mb4 pr0-ns">
+        <h4 class="headline-xs black">Products</h4>
         <ul class="list pa0">
-          <li class="lh-copy db black-70">Platform</li>
-          <li class="lh-copy black-70">Netlify Build</li>
-          <li class="lh-copy black-70">Netlify Edge</li>
-          <li class="lh-copy black-70">Netlify Dev</li>
-          <li class="lh-copy black-70">Pricing</li>
-          <li class="lh-copy black-70">Add-ons</li>
+          <li class="list-m black-70">Platform</li>
+          <li class="list-m black-70">Netlify Build</li>
+          <li class="list-m black-70">Netlify Edge</li>
+          <li class="list-m black-70">Netlify Dev</li>
+          <li class="list-m black-70">Pricing</li>
+          <li class="list-m black-70">Add-ons</li>
         </ul>
       </section>
-      <section class="fl w-50 dib-ns w-auto-ns mr4-m mr5-l mb4 pl2 pl0-ns">
-        <h4 class="f5 f4-l fw6">Resources</h4>
+      <section class="w-auto-ns mr4-m mr5-l mb4 pl2 pl0-ns">
+        <h4 class="headline-xs black">Resources</h4>
         <ul class="list pa0">
-          <li class="lh-copy db black-70">Docs</li>
-          <li class="lh-copy black-70">Open Source</li>
-          <li class="lh-copy black-70">Jamstack book</li>
-          <li class="lh-copy black-70">Security</li>
+          <li class="list-m black-70">Docs</li>
+          <li class="list-m black-70">Open Source</li>
+          <li class="list-m black-70">Jamstack book</li>
+          <li class="list-m black-70">Security</li>
         </ul>
       </section>
-      <section class="fl w-50 dib-ns w-auto-ns mr4-m mr5-l mb4 pr2 pr0-ns">
-        <h4 class="f5 f4-l fw6">Contact us</h4>
+      <section class="w-auto-ns mr4-m mr5-l mb4 pr0-ns">
+        <h4 class="headline-xs black">Contact us</h4>
         <ul class="list pa0">
-          <li class="lh-copy db black-70">Sales</li>
-          <li class="lh-copy black-70">Support</li>
-          <li class="lh-copy black-70">Status</li>
-          <li class="lh-copy black-70">Community</li>
+          <li class="list-m black-70">Sales</li>
+          <li class="list-m black-70">Support</li>
+          <li class="list-m black-70">Status</li>
+          <li class="list-m black-70">Community</li>
         </ul>
       </section>
-      <section class="fl w-50 dib-ns w-auto-ns mb4 pl2 pl0-ns">
-        <h4 class="f5 f4-l fw6">Company</h4>
+      <section class="w-auto-ns mb4 pl2 pl0-ns">
+        <h4 class="headline-xs black">Company</h4>
         <ul class="list pa0">
-          <li class="lh-copy db black-70">Blog</li>
-          <li class="lh-copy black-70">About</li>
-          <li class="lh-copy black-70">Careers</li>
-          <li class="lh-copy black-70">Press</li>
+          <li class="list-m db black-70">Blog</li>
+          <li class="list-m black-70">About</li>
+          <li class="list-m black-70">Careers</li>
+          <li class="list-m black-70">Press</li>
         </ul>
       </section>
     </div>

@@ -58,50 +58,47 @@ body {
   background-color: var(--color-teal-dark);
 }
 
-/* Typography */
-.title-m {
-  font-size: clamp(3em, 6vw, 4.25em);
-}
-.title-lg {
+/* typography  */
+.heading-l {
   font-size: clamp(2.9em, 5vw, 6em);
-}
-.text-l {
-  font-size: 1.375em;
-}
-.font-serif {
+  line-height: 1.25;
+  font-weight: 400;
   font-family: var(--font-display);
+}
+.heading-m {
+  font-size: clamp(3em, 6vw, 4.25em);
+  line-height: 1.2;
+  font-weight: 400;
+  font-family: var(--font-display);
+}
+.heading-sm {
+  font-size: 1.375em;
+  line-height: 1.36;
+  font-weight: 700;
+}
+.headline-xs {
+  font-size: 1em;
+  margin: 0 0 1em;
+  white-space: nowrap;
+}
+.list-m {
+  line-height: 2;
+  white-space: nowrap;
+  text-decoration: none;
 }
 .tracked-xs {
   letter-spacing: 0.02em;
-}
-.lh-s {
-  line-height: 1.36;
 }
 
 /* spacing */
 .pa-xs {
   padding: 0.5em 1.5em;
 }
-.pa-s {
-  padding: 1.5em;
-}
 .min-w-m {
   min-width: var(--card-width-sm);
 }
 .max-w-m {
   max-width: var(--card-width-m);
-}
-.br10 {
-  border-radius: 10px;
-}
-.bn {
-  border: none;
-}
-.box-shadow-1 {
-  box-shadow: 0 2px 4px rgba(14, 30, 37, 0.12);
-}
-.dotted-bg {
-  background: url("https://www.netlify.com/v3/img/components/dots-teal.svg");
 }
 
 /* layout */
@@ -116,6 +113,11 @@ body {
   display: flex;
   align-items: center;
 }
+.card-s {
+  padding: 1.5em;
+  border-radius: 10px;
+  margin: 0 0, 5rem;
+}
 
 /* hiding scrollbar */
 .scroll-hide {
@@ -125,4 +127,14 @@ body {
 .scroll-hide::-webkit-scrollbar {
   width: 0;
   display: none;
+}
+
+.bn {
+  border: none;
+}
+.box-shadow-1 {
+  box-shadow: 0 2px 4px rgba(14, 30, 37, 0.12);
+}
+.dotted-bg {
+  background: url("https://www.netlify.com/v3/img/components/dots-teal.svg");
 }
